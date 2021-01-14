@@ -1,0 +1,215 @@
+html {
+	height: 100%;
+	margin: 0;
+}
+body {
+	display: flex;
+	align-items: stretch;
+	margin: 0;
+	min-height: 100%;
+	border :1px solid #96f0fa;
+	font-size: calc(18px + (26-14) * ((100vw - 300px)/(1600-300)));
+}
+
+.conteneur {
+	display: flex;
+	flex : 1 100%;
+	align-items: stretch;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+}
+
+h2 {
+	text-align: center;
+}
+
+.menu {
+	order: 1;
+	display:flex;
+	flex: 1 5%;
+	flex-flow: nowrap;
+	background-color: #96f0fa;
+	justify-content: space-between;
+}
+
+.menu ul {
+	display: flex;
+	flex: 2;
+	flex-flow: nowrap;
+	list-style-type: none;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.menu ul a {
+	text-decoration: none;
+	display: block;
+	
+}
+
+.menu ul a:hover {
+	text-decoration: underline;
+}
+
+.menu ul a:link {
+	color: black;
+}
+
+.menu ul a:visited {
+	color: black;
+}
+
+.menu ul a:active {
+	color: red;
+}
+
+.menu img {
+	flex: 1;
+	margin: 1vw;
+	max-width: 10%;
+	height: auto;
+}
+.formDemande {
+	max-width: 90%;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: #fff;
+	padding: 5%;
+	margin: 3% auto;
+	border: 1px solid #96f0fa; 
+	border-radius: 2px;
+}
+.formDemande ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.formDemande li {
+	display: block;
+	width:100%;
+	padding: 5%;
+	border: 1px solid #DDDDDD;
+	margin-bottom: 5%;
+	border-radius: 5%;
+}
+
+.formDemande li > label {
+	display: block;
+	float: left;
+	margin-top: -10%;
+	background: #FFFFFF;
+	height: 10%;
+	padding: 1% 2% 2% 2%;
+	color: black;
+	overflow: hidden;
+}
+.formDemande input[type=text], 
+.formDemande input[type=number], 
+.formDemande select {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	display: block;
+	outline: none;
+	border: none;
+	height: 5%;
+	line-height: 5%;
+	padding: 0;
+	
+}
+
+.formDemande input[type=submit],
+.formDemande input[type=reset] {
+	background: white;
+	border: none;
+	padding: 3% 5% 3% 5%;
+	
+}
+
+.formDemande li > span {
+	background: #F3F3F3;
+	display: block;
+	padding:2%;
+	margin: 0 -5% -5% -5%;
+	text-align: center;
+	color: black;
+	
+}
+
+.presContent {
+	list-style-type: none;
+}
+
+.presPageAccueil {
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	align-items: center;
+}
+
+.presPageAccueil img{
+	max-width: 30%;
+	height: auto;
+}
+.presArticlePageAccueil {
+	list-style-type: none;
+}
+
+.footer {
+	order: 3;
+	flex:1 5%;
+	background-color: #96f0fa;
+	padding: 10px;
+	text-align: center;
+}
+.main {
+	order: 2;
+	background-image: url("../images/brain-solid_pale.svg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	flex:4 80%;
+	margin: 3vw;
+	
+}
+.main h2 {
+	text-align: center;
+}
+#addrContact {
+	text-align: center;
+}
+
+.presTab {
+	display:flex;
+	justify-content: center;
+}
+
+.tabPrep {
+	width: 100%;
+	padding: 3%;
+	margin: 3%;
+	border: 3px solid #FFFFFF;
+	
+}
+
+.tabPrep > column {
+	padding: 1%;
+}
+.tabPrep > caption {
+	caption-side: top;
+	text-align: center;
+}
+
+.statutImg {
+	max-width: 20%;
+	height: auto;
+}
+
+#imgCommande {
+	max-width: 100%;
+	height:auto;
+}
+
+:focus {
+	text-decoration:underline;
+}

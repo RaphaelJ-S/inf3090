@@ -1,0 +1,50 @@
+{
+	"articles":[
+		
+		{
+			"numero": 1,
+			"prenom": "Jacque",
+			"ramassage": "2020-07-13, 13h00",
+			"statut": "préparation",
+			"commande": {
+			
+					"id": "A00001",
+					"nom": "Camera",
+					"marque": "Minolta",
+					"prix": 346.45,
+					"description": "une camera analogue",
+					"image": "analog-1705135_640.jpg"
+					}
+		},
+		{
+			"numero": 2,
+			"prenom": "Charlotte",
+			"ramassage": "2020-05-02, 9h00",
+			"statut": "livré",
+			"commande": {
+			
+					"id": "A00002",
+					"nom": "Cables",
+					"marque": "NewBEP",
+					"prix": 17.99,
+					"description": "Un cables adaptateur HDMI vers VGA",
+					"image": "cable-5245447_640.jpg"
+					}
+		},
+		{
+			"numero": 3,
+			"prenom": "Raoul",
+			"ramassage": "2020-12-25, 13h00",
+			"statut": "préparation",
+			"commande": {
+			
+					"id": "A00003",
+					"nom": "Ipad",
+					"marque": "Apple",
+					"prix": 778.99,
+					"description": "Une tablette Ipad",
+					"image": "ipad-147691_640.png"
+					}
+		}
+	]
+}

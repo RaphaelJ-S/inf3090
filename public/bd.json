@@ -1,0 +1,43 @@
+[
+	{
+		"id": "A00001",
+		"nom": "Camera",
+		"marque": "Minolta",
+		"prix": 346.45,
+		"description": "une camera analogue",
+		"image": "analog-1705135_640.jpg"
+	},
+		
+	{
+		"id": "A00002",
+		"nom": "Cables",
+		"marque": "NewBEP",
+		"prix": 17.99,
+		"description": "Un cables adaptateur HDMI vers VGA",
+		"image": "cable-5245447_640.jpg"
+	},
+	{
+		"id": "A00003",
+		"nom": "Ipad",
+		"marque": "Apple",
+		"prix": 778.99,
+		"description": "Une tablette Ipad",
+		"image": "ipad-147691_640.png"
+	},
+	{
+		"id": "A00004",
+		"nom": "Téléphone",
+		"marque": "Samsung",
+		"prix": 449.99,
+		"description": "Un téléphone intelligent",
+		"image": "smartphone-153650_640.png"
+	},
+	{
+		"id": "A00005",
+		"nom": "Ordinateur",
+		"marque": "ASUS",
+		"prix": 1239.99,
+		"description": "Un ordinateur",
+		"image": "ordinateur-4902449_640.png"
+	}
+]
